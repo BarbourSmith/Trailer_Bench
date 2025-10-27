@@ -23,8 +23,8 @@
     {
       "atomType": "Molecule",
       "name": "Benches",
-      "x": 0.3611111111111111,
-      "y": 0.26740947075208915,
+      "x": 0.36507936507936506,
+      "y": 0.3008356545961003,
       "uniqueID": "89c1dfb7-91ea-4e6c-b8a5-f184c4298a59",
       "ioValues": [
         {
@@ -1299,8 +1299,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.5443121693121693,
-          "y": 0.5821727019498607,
+          "x": 0.5509259259259259,
+          "y": 0.5905292479108635,
           "uniqueID": "967af242-46b8-4025-9b5f-8a9a34f9f9b6",
           "ioValues": [
             {
@@ -2915,8 +2915,8 @@
     {
       "atomType": "Molecule",
       "name": "Add benches",
-      "x": 0.5515873015873016,
-      "y": 0.7270194986072424,
+      "x": 0.5548941798941799,
+      "y": 0.7353760445682451,
       "uniqueID": "80a1f3c8-ccb7-4388-b3d5-4aae5eb7f8de",
       "ioValues": [
         {
@@ -2946,13 +2946,13 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Tabbed Panel",
-          "x": 0.24140211640211642,
-          "y": 0.8245125348189415,
+          "x": 0.5244708994708994,
+          "y": 0.8217270194986073,
           "uniqueID": "a8ebc9e7-655b-4ac0-a0b2-88b087678f41",
           "ioValues": [
             {
               "name": "X",
-              "ioValue": 320,
+              "ioValue": 330,
               "currentEquation": "340"
             },
             {
@@ -2962,7 +2962,7 @@
             },
             {
               "name": "Tab Length",
-              "ioValue": 10
+              "ioValue": 5
             },
             {
               "name": "Wood Thickness",
@@ -3016,7 +3016,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 320
+                  "ioValue": 330
                 },
                 {
                   "name": "y length",
@@ -3072,11 +3072,11 @@
               "ioValues": [
                 {
                   "name": "X",
-                  "ioValue": 320
+                  "ioValue": 330
                 },
                 {
                   "name": "T",
-                  "ioValue": 10
+                  "ioValue": 5
                 }
               ],
               "currentEquation": "X+2*T"
@@ -3105,7 +3105,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "rectangle-320-150",
+                    "geometry": "rectangle-330-150",
                     "dimension": "2D",
                     "plane": {
                       "origin": [
@@ -3383,13 +3383,13 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.3458994708994709,
-          "y": 0.6016713091922006,
+          "x": 0.7076719576719577,
+          "y": 0.5821727019498607,
           "uniqueID": "7f131e1f-9c5f-49de-90cb-081940d13269",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 190,
+              "ioValue": 185,
               "currentEquation": "340/2"
             },
             {
@@ -3407,8 +3407,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.5066137566137566,
-          "y": 0.4094707520891365,
+          "x": 0.6951058201058201,
+          "y": 0.23676880222841226,
           "uniqueID": "d5ecc57f-4703-43e1-a272-1e2bcc39fa57",
           "ioValues": [
             {
@@ -4537,7 +4537,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-extrude-fuse-fuse-move-rectangle-340-30-0-30-0-rectangle-320-150-move-rectangle-340-30-0--30-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-190-500-400",
+                "geometry": "move-extrude-fuse-fuse-move-rectangle-340-30-0-30-0-rectangle-330-150-move-rectangle-340-30-0--30-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-185-500-400",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -4574,23 +4574,27 @@
         },
         {
           "atomType": "Equation",
-          "name": "340/2 + 2*T",
-          "x": 0.11309523809523808,
-          "y": 0.6072423398328691,
+          "name": "L/2 + 2*T",
+          "x": 0.28174603174603174,
+          "y": 0.6768802228412256,
           "uniqueID": "8a490956-3028-47e7-98bb-b48b31de05d2",
           "ioValues": [
             {
               "name": "T",
               "ioValue": 10
+            },
+            {
+              "name": "L",
+              "ioValue": 330
             }
           ],
-          "currentEquation": "340/2 + 2*T"
+          "currentEquation": "L/2 + 2*T"
         },
         {
           "atomType": "Equation",
-          "name": "340-2*T",
-          "x": 0.08597883597883599,
-          "y": 0.8356545961002785,
+          "name": "340-T",
+          "x": 0.08796296296296297,
+          "y": 0.8245125348189415,
           "uniqueID": "820c65e5-104e-4fb1-9fd3-e86ce2223ba1",
           "ioValues": [
             {
@@ -4598,7 +4602,21 @@
               "ioValue": 10
             }
           ],
-          "currentEquation": "340-2*T"
+          "currentEquation": "340-T"
+        },
+        {
+          "atomType": "Equation",
+          "name": "T/2",
+          "x": 0.30687830687830686,
+          "y": 0.479108635097493,
+          "uniqueID": "cf0a42f4-a813-4095-9934-048eeaa1d79d",
+          "ioValues": [
+            {
+              "name": "T",
+              "ioValue": 10
+            }
+          ],
+          "currentEquation": "T/2"
         }
       ],
       "allConnectors": [
@@ -4639,6 +4657,12 @@
           "ap2ID": "820c65e5-104e-4fb1-9fd3-e86ce2223ba1"
         },
         {
+          "ap1Name": "number or geometry",
+          "ap2Name": "T",
+          "ap1ID": "365c615e-edf7-44ac-998b-f23ef7f2dc83",
+          "ap2ID": "cf0a42f4-a813-4095-9934-048eeaa1d79d"
+        },
+        {
           "ap1Name": "result",
           "ap2Name": "xDist",
           "ap1ID": "8a490956-3028-47e7-98bb-b48b31de05d2",
@@ -4648,6 +4672,18 @@
           "ap1Name": "result",
           "ap2Name": "X",
           "ap1ID": "820c65e5-104e-4fb1-9fd3-e86ce2223ba1",
+          "ap2ID": "a8ebc9e7-655b-4ac0-a0b2-88b087678f41"
+        },
+        {
+          "ap1Name": "result",
+          "ap2Name": "L",
+          "ap1ID": "820c65e5-104e-4fb1-9fd3-e86ce2223ba1",
+          "ap2ID": "8a490956-3028-47e7-98bb-b48b31de05d2"
+        },
+        {
+          "ap1Name": "result",
+          "ap2Name": "Tab Length",
+          "ap1ID": "cf0a42f4-a813-4095-9934-048eeaa1d79d",
           "ap2ID": "a8ebc9e7-655b-4ac0-a0b2-88b087678f41"
         }
       ],
