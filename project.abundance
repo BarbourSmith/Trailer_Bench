@@ -1,15 +1,44 @@
 {
-    "atomType": "Molecule",
-    "name": "Trailer_Bench",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "9ddafb34-7c53-4b86-9225-9b0ec0a14fcf",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Trailer_Bench",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "9ddafb34-7c53-4b86-9225-9b0ec0a14fcf",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "883341d1-0994-4c1d-954b-88e4e0ec4f85",
+      "ioValues": []
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.4887566137566138,
+      "y": 0.3983286908077995,
+      "uniqueID": "aa582cd6-b2e7-4baa-8df6-35d1f2d4e7ef",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "aa582cd6-b2e7-4baa-8df6-35d1f2d4e7ef",
+      "ap2ID": "883341d1-0994-4c1d-954b-88e4e0ec4f85"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": [],
+  "filetypeVersion": 1
 }
