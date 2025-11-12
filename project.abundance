@@ -2036,8 +2036,8 @@
     {
       "atomType": "CutLayout",
       "name": "Cut Layout",
-      "x": 0.6944444444444444,
-      "y": 0.777158774373259,
+      "x": 0.6666666666666666,
+      "y": 0.7214484679665739,
       "uniqueID": "id-1586",
       "ioValues": [
         {
@@ -2270,8 +2270,8 @@
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.8558201058201057,
-      "y": 0.5933147632311978,
+      "x": 0.8229082047116166,
+      "y": 0.6267409470752089,
       "uniqueID": "id-1596",
       "ioValues": [
         {
@@ -2280,7 +2280,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 1
+          "ioValue": 2,
+          "currentEquation": "2"
         },
         {
           "name": "Speed",
@@ -2288,7 +2289,8 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 2,
+          "currentEquation": "2"
         },
         {
           "name": "Part Name",
@@ -2296,7 +2298,7 @@
         }
       ],
       "partName": "Trailer_Bench",
-      "sortDirection": "Left"
+      "sortDirection": "Top"
     },
     {
       "atomType": "Molecule",
@@ -8180,6 +8182,12 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-1579",
       "ap2ID": "883341d1-0994-4c1d-954b-88e4e0ec4f85"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-1586",
+      "ap2ID": "id-1596"
     },
     {
       "ap1Name": "geometry or number",
