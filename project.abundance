@@ -24,7 +24,7 @@
       "atomType": "Input",
       "name": "Wood Thickness",
       "x": 0.025384615384615384,
-      "y": 0.33704735376044564,
+      "y": 0.15384615384615385,
       "uniqueID": "7d02a016-b23a-48f8-bb8c-5bae50d25822",
       "ioValues": [],
       "type": "number"
