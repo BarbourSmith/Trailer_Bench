@@ -24,7 +24,7 @@
       "atomType": "Input",
       "name": "Wood Thickness",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "y": 0.33704735376044564,
       "uniqueID": "7d02a016-b23a-48f8-bb8c-5bae50d25822",
       "ioValues": [],
       "type": "number"
@@ -32,8 +32,8 @@
     {
       "atomType": "ExtractTag",
       "name": "Extract Tag",
-      "x": 0.6706349206349206,
-      "y": 0.16434540389972147,
+      "x": 0.670186839967506,
+      "y": 0.17827298050139276,
       "uniqueID": "id-522",
       "ioValues": [],
       "tag": "Thick",
@@ -2280,8 +2280,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         },
         {
           "name": "Speed",
@@ -2289,8 +2288,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         },
         {
           "name": "Part Name",
