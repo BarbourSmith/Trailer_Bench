@@ -100,7 +100,8 @@
       "ioValues": [
         {
           "name": "Sheet Width",
-          "ioValue": 2438
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "Sheet Height",
@@ -163,7 +164,7 @@
           },
           {
             "id": 21,
-            "rotate": 180,
+            "rotate": 90,
             "translate": {
               "x": -950,
               "y": -130
@@ -353,6 +354,42 @@
       ],
       "partName": "Trailer_Bench",
       "sortDirection": "Top"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7731481481481481,
+      "y": 0.766016713091922,
+      "uniqueID": "id-2175",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6421957671957672,
+      "y": 0.7688022284122563,
+      "uniqueID": "id-2180",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": -500
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     },
     {
       "atomType": "Molecule",
@@ -4233,40 +4270,188 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Assembly",
-      "x": 0.7731481481481481,
-      "y": 0.766016713091922,
-      "uniqueID": "id-2175",
+      "atomType": "CutLayout",
+      "x": 0.53505291005291,
+      "y": 0.6740947075208913,
+      "uniqueID": "id-2749",
+      "name": "Cut Layout",
       "ioValues": [
         {
-          "name": "Shape 1",
-          "ioValue": null
+          "name": "Sheet Width",
+          "ioValue": 2438
         },
         {
-          "name": "Shape 3",
-          "ioValue": null
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
         }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.6421957671957672,
-      "y": 0.7688022284122563,
-      "uniqueID": "id-2180",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": -500,
-          "currentEquation": "-500"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 7,
+            "rotate": 30,
+            "translate": {
+              "x": 225.88472955010604,
+              "y": 103.90560502262306
+            }
+          },
+          {
+            "id": 11,
+            "rotate": 30,
+            "translate": {
+              "x": 188.38472954455528,
+              "y": 238.60142099642673
+            }
+          },
+          {
+            "id": 3,
+            "rotate": 30,
+            "translate": {
+              "x": 225.88472952829864,
+              "y": 343.3746500602123
+            }
+          },
+          {
+            "id": 13,
+            "rotate": 240,
+            "translate": {
+              "x": 168.85750915773949,
+              "y": 508.60304752576604
+            }
+          },
+          {
+            "id": 17,
+            "rotate": 270,
+            "translate": {
+              "x": 67.70000002434018,
+              "y": 676.604311689222
+            }
+          },
+          {
+            "id": 15,
+            "rotate": 210,
+            "translate": {
+              "x": 286.28472955010614,
+              "y": 728.0040981314826
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 90,
+            "translate": {
+              "x": 481.72186070000004,
+              "y": 352.8817114
+            }
+          },
+          {
+            "id": 9,
+            "rotate": 0,
+            "translate": {
+              "x": 223.50127020000002,
+              "y": 918.0816327
+            }
+          },
+          {
+            "id": 5,
+            "rotate": 240,
+            "translate": {
+              "x": 427.38294346021223,
+              "y": 730.0470002717013
+            }
+          },
+          {
+            "id": 10,
+            "rotate": 210,
+            "translate": {
+              "x": 592.1681574436656,
+              "y": 504.52478585804784
+            }
+          },
+          {
+            "id": 19,
+            "rotate": 300,
+            "translate": {
+              "x": 677.7819795685175,
+              "y": 626.8315114501062
+            }
+          },
+          {
+            "id": 12,
+            "rotate": 30,
+            "translate": {
+              "x": 589.6778776530966,
+              "y": 238.03808424195222
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 240,
+            "translate": {
+              "x": 591.6706127715086,
+              "y": 902.9504093875112
+            }
+          },
+          {
+            "id": 16,
+            "rotate": 90,
+            "translate": {
+              "x": 208.5012702,
+              "y": 1053.3787427000002
+            }
+          },
+          {
+            "id": 4,
+            "rotate": 60,
+            "translate": {
+              "x": 542.6016990475471,
+              "y": 1087.626811908272
+            }
+          },
+          {
+            "id": 6,
+            "rotate": 0,
+            "translate": {
+              "x": 788.4711522656253,
+              "y": 215.8435994
+            }
+          },
+          {
+            "id": 14,
+            "rotate": 30,
+            "translate": {
+              "x": 767.3774649746832,
+              "y": 995.7056512419522
+            }
+          },
+          {
+            "id": 18,
+            "rotate": 90,
+            "translate": {
+              "x": 379.0868175499421,
+              "y": 67.69999999999976
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 210,
+            "translate": {
+              "x": 782.7737559830183,
+              "y": 565.574640340505
+            }
+          },
+          {
+            "id": 8,
+            "rotate": 210,
+            "translate": {
+              "x": 897.9938245577387,
+              "y": 636.8076236978458
+            }
+          }
+        ]
       ]
     }
   ],
@@ -4285,6 +4470,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-522",
       "ap2ID": "id-1586"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-522",
+      "ap2ID": "id-2749"
     },
     {
       "ap2Name": "geometry",
@@ -4309,16 +4499,16 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-1586",
-      "ap2ID": "id-1596"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1586",
       "ap2ID": "id-2180"
     },
     {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1596",
+      "ap2ID": "id-2175"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-2180",
       "ap2ID": "id-2175"
     },
     {
@@ -4335,11 +4525,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "80a1f3c8-ccb7-4388-b3d5-4aae5eb7f8de",
       "ap2ID": "id-1579"
-    },
-    {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-2180",
-      "ap2ID": "id-2175"
     }
   ],
   "unitsKey": "MM",
