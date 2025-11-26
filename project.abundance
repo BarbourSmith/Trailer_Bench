@@ -326,8 +326,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8148148148148148,
-      "y": 0.27298050139275765,
+      "x": 0.8194444444444444,
+      "y": 0.25069637883008355,
       "uniqueID": "id-1596",
       "ioValues": [
         {
@@ -378,7 +378,8 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -500
+          "ioValue": 720,
+          "currentEquation": "720"
         },
         {
           "name": "yDist",
@@ -4496,11 +4497,6 @@
       "ap2ID": "883341d1-0994-4c1d-954b-88e4e0ec4f85"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1586",
-      "ap2ID": "id-2180"
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1596",
       "ap2ID": "id-2175"
@@ -4509,6 +4505,16 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-2180",
       "ap2ID": "id-2175"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2749",
+      "ap2ID": "id-2180"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2749",
+      "ap2ID": "id-1596"
     },
     {
       "ap2Name": "input",
