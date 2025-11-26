@@ -1506,8 +1506,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.14351851851851852,
-          "y": 0.8690807799442898,
+          "x": 0.1455026455026455,
+          "y": 0.8774373259052926,
           "uniqueID": "474314c8-d42c-40ef-a414-ff38138f5296",
           "name": "Horizontal",
           "topLevel": false,
@@ -2125,6 +2125,44 @@
                 }
               ],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.830026455026455,
+              "y": 0.883008356545961,
+              "uniqueID": "id-3325",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 7
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.8697089947089948,
+              "y": 0.48467966573816157,
+              "uniqueID": "id-3326"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.9292328042328043,
+              "y": 0.8690807799442898,
+              "uniqueID": "id-3327",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 55
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 55
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -2174,9 +2212,9 @@
               "ap2ID": "581287cc-ecfb-46cc-abb6-c6d9f4af14fe"
             },
             {
-              "ap2Name": "geometry",
+              "ap2Name": "geometry1",
               "ap1ID": "581287cc-ecfb-46cc-abb6-c6d9f4af14fe",
-              "ap2ID": "de7d16bf-15ef-41b8-9653-124f2d067034"
+              "ap2ID": "id-3326"
             },
             {
               "ap2Name": "geometry",
@@ -2212,6 +2250,21 @@
               "ap2Name": "Shape 4",
               "ap1ID": "6854ce84-54bb-4ed3-96fa-71da5a85aaec",
               "ap2ID": "75e2cd4b-bd71-4533-be16-169dbc13a45d"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-3325",
+              "ap2ID": "id-3327"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-3326",
+              "ap2ID": "de7d16bf-15ef-41b8-9653-124f2d067034"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-3327",
+              "ap2ID": "id-3326"
             }
           ],
           "ioValues": [
