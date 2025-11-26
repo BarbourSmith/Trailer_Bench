@@ -336,11 +336,13 @@
         },
         {
           "name": "Passes",
-          "ioValue": 3
+          "ioValue": 2,
+          "currentEquation": "2"
         },
         {
           "name": "Speed",
-          "ioValue": 1500
+          "ioValue": 2000,
+          "currentEquation": "2000"
         },
         {
           "name": "Cut Through",
