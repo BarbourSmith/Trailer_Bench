@@ -4452,8 +4452,8 @@
             },
             {
               "atomType": "Gcode",
-              "x": 0.6686507936507937,
-              "y": 0.67966573816156,
+              "x": 0.7275132275132276,
+              "y": 0.7158774373259054,
               "uniqueID": "id-3912",
               "ioValues": [
                 {
@@ -4462,7 +4462,8 @@
                 },
                 {
                   "name": "Passes",
-                  "ioValue": 1
+                  "ioValue": 2,
+                  "currentEquation": "2"
                 },
                 {
                   "name": "Speed",
@@ -4480,6 +4481,27 @@
               ],
               "partName": "Pannel",
               "sortDirection": "Left"
+            },
+            {
+              "atomType": "Rotate",
+              "x": 0.626984126984127,
+              "y": 0.777158774373259,
+              "uniqueID": "id-3920",
+              "ioValues": [
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 90,
+                  "currentEquation": "90"
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -4541,7 +4563,7 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "d78f17da-bb1b-4cda-afca-aecd0b93042a",
-              "ap2ID": "id-3912"
+              "ap2ID": "id-3920"
             },
             {
               "ap2Name": "geometry2",
@@ -4567,6 +4589,11 @@
               "ap2Name": "geometry",
               "ap1ID": "8cce515e-ecf1-483c-96c6-d08ec49a4847",
               "ap2ID": "c785630e-33ab-4e13-a6c8-d1e925840106"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-3920",
+              "ap2ID": "id-3912"
             }
           ],
           "fileTypeVersion": 1
