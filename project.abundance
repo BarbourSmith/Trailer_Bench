@@ -2921,8 +2921,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.19047619047619047,
-              "y": 0.2479108635097493,
+              "x": 0.19113756613756613,
+              "y": 0.2562674094707521,
               "uniqueID": "e69f39ad-81f2-4644-8fdf-c12501bb9092",
               "name": "Tabbed Panel",
               "ioValues": [
@@ -2940,7 +2940,8 @@
                 },
                 {
                   "name": "Wood Thickness",
-                  "ioValue": 11
+                  "ioValue": 12.2,
+                  "currentEquation": "12.2"
                 }
               ],
               "topLevel": false,
@@ -2999,7 +3000,7 @@
                   "ioValues": [
                     {
                       "name": "height",
-                      "ioValue": 11
+                      "ioValue": 12.2
                     }
                   ]
                 },
